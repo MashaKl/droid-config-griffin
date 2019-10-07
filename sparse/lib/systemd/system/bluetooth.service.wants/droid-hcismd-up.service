@@ -1,1 +1,1 @@
-../droid-hcismd-up.service
+/lib/systemd/system/droid-hcismd-up.service

@@ -1,1 +1,1 @@
-../droid-fm-up.service
+/lib/systemd/system/droid-fm-up.service
