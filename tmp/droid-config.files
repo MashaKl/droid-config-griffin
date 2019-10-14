@@ -49,7 +49,6 @@
 /etc/usb-moded/dyn-modes/mtp_mode-droid.ini
 /etc/xtwifi.conf
 /etc/lowi.conf
-/etc/ofono/ril_subscription.conf
 /etc/modprobe.d/blacklist-evbug.conf
 /etc/gps.conf
 /etc/izat.conf
@@ -61,6 +60,7 @@
 /lib/systemd/system/wlan-module-load.service
 /lib/systemd/system/droid-hcismd-up.service
 /lib/systemd/system/droid-fm-up.service
+/lib/udev/rules.d/80-sdudisks2.rules
 /lib/udev/rules.d/999-droid-fm.rules
 /usr/bin/droid/droid-hcismd-up.sh
 /usr/libexec/droid-hybris/system/etc/init/atrace.rc
