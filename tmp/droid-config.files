@@ -55,14 +55,17 @@
 /etc/media_codecs_performance.xml
 /lib/firmware
 /lib/systemd/system/multi-user.target.wants/wlan-module-load.service
+/lib/systemd/system/sensors-delay-hack.service
 /lib/systemd/system/bluetooth.service.wants/droid-hcismd-up.service
 /lib/systemd/system/bluetooth.service.wants/droid-fm-up.service
 /lib/systemd/system/wlan-module-load.service
 /lib/systemd/system/droid-hcismd-up.service
 /lib/systemd/system/droid-fm-up.service
+/lib/systemd/system/graphical.target.wants/sensors-delay-hack.service
 /lib/udev/rules.d/80-sdudisks2.rules
 /lib/udev/rules.d/999-droid-fm.rules
 /usr/bin/droid/droid-hcismd-up.sh
+/usr/share/csd/settings.d/hw-settings.ini
 /usr/libexec/droid-hybris/system/etc/init/atrace.rc
 /usr/libexec/droid-hybris/system/etc/init/mediaextractor.rc
 /usr/libexec/droid-hybris/system/etc/init/mediacodec.rc
