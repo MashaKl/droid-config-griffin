@@ -53,10 +53,10 @@
 /etc/gps.conf
 /etc/izat.conf
 /etc/media_codecs_performance.xml
+/firmware/image/updates
 /lib/firmware
 /lib/systemd/system/multi-user.target.wants/wlan-module-load.service
 /lib/systemd/system/sensors-delay-hack.service
-/lib/systemd/system/bluetooth.service.wants/droid-hcismd-up.service
 /lib/systemd/system/bluetooth.service.wants/droid-fm-up.service
 /lib/systemd/system/wlan-module-load.service
 /lib/systemd/system/droid-hcismd-up.service
@@ -88,6 +88,7 @@
 /usr/libexec/droid-hybris/system/etc/init/uncrypt.rc
 /usr/libexec/droid-hybris/system/etc/init/vdc.rc
 /var/lib/environment/compositor/droid-hal-device.conf
+/var/lib/environment/nemo/99-qtscenegraph.conf
 /etc/ofono/ril_subscription.conf
 /etc/gst-droid/gstdroidcamsrc-1.conf
 /etc/gst-droid/gstdroidcamsrcquirks.conf
